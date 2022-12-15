@@ -1,8 +1,9 @@
 
 # Weather application 
 
-### Linter status:
+### Tests status:
 ![Linter workflow](https://github.com/iFoxtrot33/weatherapp/actions/workflows/lint.yml/badge.svg)
+<a href="https://codeclimate.com/github/iFoxtrot33/weatherapp/maintainability"><img src="https://api.codeclimate.com/v1/badges/b8b0c28ea7ac9e1fc55d/maintainability" /></a>
 
 ### To Start:
 https://weatherbyiurii.surge.sh/

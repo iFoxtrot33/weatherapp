@@ -14,7 +14,6 @@ const weather = {
     const { description, icon } = data.weather[0];
     const { temp, humidity } = data.main;
     const { speed } = data.wind;
-    console.log(name, icon, description, temp, humidity, speed);
     document.querySelector('.city').innerText = `Weather in ${name}`;
     // document.querySelector('body').style.background-image = `url(https://source.unsplash.com/1600x900/?${name})`;
     document.querySelector('.icon').src = `https://openweathermap.org/img/wn/${icon}.png`;

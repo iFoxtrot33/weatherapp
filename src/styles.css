@@ -6,7 +6,7 @@ body {
   margin: 0;
   background-color: aquamarine;
   font-family: 'Open Sans', sans-serif;
-  background-image: url(https://source.unsplash.com/1600x900/?city);
+  background-image: url(https://source.unsplash.com/1600x900/?batumi);
   font-size: 120%;
 }
 
@@ -52,9 +52,45 @@ button:hover {
   font-family: inherit;
   font-size: 105%;
   width: calc(100% - 50px);
+  color: white;
 }
 
 .temp {
   margin: 0;
   font-size: 150%;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading::after {
+  visibility: visible;
+  content: 'Loading...';
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.error.true {
+  visibility: hidden;
+  max-height: 30px;
 }
